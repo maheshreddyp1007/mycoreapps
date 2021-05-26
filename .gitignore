@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CoreAppBasic/bin/Debug/netcoreapp3.1
+/CoreWebApp/bin/Debug/netcoreapp3.1
+/CoreWebApp/obj
+/JWTApp/bin/Debug/netcoreapp3.1
+/JWTApp/obj
+/JWTAuth/bin/Debug/netcoreapp3.1
+/JWTAuth/obj
+/JwtTestApp/obj
+/SwaggerAPI/bin/Debug/netcoreapp3.1
+/SwaggerAPI/obj

@@ -90,8 +90,8 @@ namespace TestApp
             services.AddAuthentication()
             .AddGoogle(options =>
             {
-                options.ClientId = Configuration["App:GoogleClientId"];
-                options.ClientSecret = Configuration["App:GoogleSecret"];
+                options.ClientId = Configuration["Authentication:Google:ClientId"];
+                options.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
             });
 
             services.AddControllersWithViews();
